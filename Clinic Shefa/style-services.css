@@ -1,0 +1,370 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background: linear-gradient(to top, #2d8cb2, #9fd5eb36);
+}
+
+/* Body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('80579d8ca104ece.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+}
+
+body::before{
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: -1;
+}
+
+/* Header Section */
+header {
+    background-color: #2d8cb2;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    POSITION: fixed;
+    left: 0%;
+    right: 0%;
+}
+
+header .logo h1 {
+    color: white;
+}
+
+header .logo span {
+    color: white;
+    text-decoration: underline;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Emergency Services Section */
+.emergency-services {
+    background-color: #ffffff;
+    padding: 50px 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.emergency-services h2 {
+    color: #2d8cb2;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.emergency-services img{
+    width: 232px;
+    border-radius: 100%;
+    height: 232px;
+    box-shadow: 0 4px 8px #011d28;
+    border: 5px solid 042938;
+    transition: transform 0.3s ease;
+}
+
+.emergency-services img:hover{
+    transform: scale(1.1); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+
+}
+
+
+.emergency-services p {
+    font-size: 20px;
+    color:#011d28;
+    margin-bottom: 30px;
+}
+
+.emergency-services h3 {
+    font-size: 28px;
+    color: #2d8cb2;
+    margin-bottom: 20px;
+}
+
+.emergency-services ul {
+    list-style: none;
+    padding-left: 40px;
+    font-size: 18px;
+    color: #555;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.emergency-services  ul li {
+    color: #2d8cb2;
+    margin: 10px ;
+}
+
+
+
+/* Medical-checkups Section */
+
+.medical-checkups {
+    background-color: #ffffff;
+    padding: 50px 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.medical-checkups h2 {
+    color: #2d8cb2;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.medical-checkups img{
+    width: 232px;
+    border-radius: 100%;
+    height: 232px;
+    box-shadow: 0 4px 8px oklch(0.41 0.1 233.99);
+    border: 5px solid 042938;
+    transition: transform 0.3s ease;
+}
+
+.medical-checkups img:hover{
+    transform: scale(1.1); 
+    box-shadow: 0 4px 8px oklch(0.41 0.1 233.99); 
+
+}
+
+
+.medical-checkups p {
+    font-size: 20px;
+    color:#011d28;
+    margin-bottom: 30px;
+}
+
+.medical-checkups h3 {
+    font-size: 28px;
+    color: #2d8cb2;
+    margin-bottom: 20px;
+}
+
+.medical-checkups ul {
+    list-style: none;
+    padding-left: 40px;
+    font-size: 18px;
+    color: #555;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.medical-checkups  ul li {
+    color: #2d8cb2;
+    margin: 10px ;
+}
+
+
+
+/* Laboratory Tests Section */
+
+.laboratory-tests{
+    background-color: #ffffff;
+    padding: 50px 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.laboratory-tests h2 {
+    color: #2d8cb2;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.laboratory-tests img{
+    width: 232px;
+    border-radius: 100%;
+    height: 232px;
+    box-shadow:0 4px 8px oklch(0.41 0.1 233.99);
+    border: 5px solid 042938;
+    transition: transform 0.3s ease;
+}
+
+.laboratory-tests img:hover{
+    transform: scale(1.1); 
+    box-shadow:0 4px 8px oklch(0.41 0.1 233.99); 
+
+}
+
+
+.laboratory-tests p {
+    font-size: 20px;
+    color:#011d28;
+    margin-bottom: 30px;
+}
+
+.laboratory-tests h3 {
+    font-size: 28px;
+    color: #2d8cb2;
+    margin-bottom: 20px;
+}
+
+.laboratory-tests ul {
+    list-style: none;
+    padding-left: 40px;
+    font-size: 18px;
+    color: #555;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.laboratory-tests  ul li {
+    color: #2d8cb2;
+    margin: 10px ;
+}
+
+/* Medical Consultations Section */
+.medical-consultations {
+    background-color: #ffffff;
+    padding: 50px 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.medical-consultations h2 {
+    color: #2d8cb2;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.medical-consultations img{
+    width: 232px;
+    border-radius: 100%;
+    height: 232px;
+    box-shadow: 0 4px 8px oklch(0.41 0.1 233.99);
+    border: 5px solid 042938;
+    transition: transform 0.3s ease;
+}
+
+.medical-consultations img:hover{
+    transform: scale(1.1); 
+    box-shadow: 0 4px 8px oklch(0.41 0.1 233.99)
+
+}
+
+
+.medical-consultations p {
+    font-size: 20px;
+    color:#011d28;
+    margin-bottom: 30px;
+}
+
+.medical-consultations h3 {
+    font-size: 28px;
+    color: #2d8cb2;
+    margin-bottom: 20px;
+}
+
+.medical-consultations ul {
+    list-style: none;
+    padding-left: 40px;
+    font-size: 18px;
+    color: #555;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.medical-consultations ul li {
+    color: #2d8cb2;
+    margin: 10px ;
+}
+
+
+
+
+/* Button Styling */
+.button-container {
+    margin-top: 20px;
+}
+
+.button-container button {
+    background-color: #2d8cb2;
+    color: white;
+    padding: 12px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px;
+    border-radius: 15px;
+    transition: background-color 0.3s , transform 0.3s ease;
+}
+
+.button-container button:hover {
+    background-color:#06597a;
+    transform: scale(1.1); 
+   
+}
+
+/* Footer Section */
+footer {
+    background-color: #2d8cb2;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .social-media {
+    margin-top: 15px;
+}
+
+footer .social-media a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+footer .social-media img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s;
+}
+
+footer .social-media img:hover {
+    transform: scale(1.1);
+}
+
+footer p {
+    margin-top: 10px;
+    font-size: 14px;
+}
