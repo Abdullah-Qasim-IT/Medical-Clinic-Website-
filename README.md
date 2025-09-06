@@ -1,23 +1,29 @@
-# 🏥 Medical Clinic Website
+# Medical Clinic Website
 
-This project is a medical clinic website designed to showcase medical services in a simple and user-friendly way.  
-The website is responsive across different devices (desktop, tablet, mobile) using **HTML and CSS only**, without any external libraries.
+##  Overview
+A clean and responsive medical clinic website created with only HTML5 and CSS3—no external libraries. Its simplicity and clarity make it user-friendly and accessible on desktop, tablet, and mobile devices.
 
+---
 
-
-## 📌 Features
-- Clear and simple user interface design.
-- Fully responsive using **CSS Media Queries**.
-- Includes main pages/sections such as:
+##  Key Features
+- Intuitive and minimalistic user interface.
+- Fully responsive layout using CSS Media Queries.
+- Contains primary sections/pages:
   - Home
   - Medical Services
   - Doctors
   - Contact Information
-- Clean and well-organized code, easy to modify.
+- Clean, well-organized code—easy to modify and extend.
 
+---
 
+##  Technologies Used
+- **HTML5** – Structuring the pages of the website.
+- **CSS3** – Styling and ensuring responsiveness across devices.
 
-## 🛠️ Technologies Used
-- **HTML5**: For building the structure of the pages.
-- **CSS3**: For styling and making the website responsive.
+---
 
+##  How to Run
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/Abdullah-Qasim-IT/Medical-Clinic-Website-.git
